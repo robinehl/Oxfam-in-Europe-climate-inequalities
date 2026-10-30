@@ -44,7 +44,7 @@ revenue$NUTS_ID_2024 <- ifelse(
  revenue$NUTS_ID %in% names(recoded),
  unname(recoded[revenue$NUTS_ID]), revenue$NUTS_ID)
 
-# However, some regions are in 2021 shapes without having a direct successor. These regions are excluded from further analysis, since socio-economic data is thus unavailable from Eurostat sources
+# However, some regions are in 2021 shapes without having a direct successor. These regions are excluded from further analysis, since socio-economic data is thus unavailable from Eurostat sources.
 without_successor <- c("HU10", "PT16", "PT17", "HR04",
                     "NO01", "NO03", "NO04", "NO05")
 
@@ -57,7 +57,7 @@ revenue <- revenue[!grepl("ZZ$", revenue$NUTS_ID) &
 setdiff(deprivation$NUTS_ID_2024, nuts2$NUTS_ID)
 setdiff(revenue$NUTS_ID_2024, nuts2$NUTS_ID)
 
-# Attribution of the maximum temperature to every region. Therefore, rasterize maximum temperature data
+# Attribution of the maximum temperature to every region. Therefore, rasterize maximum temperature data.
 zones <- rasterize(vect(nuts2), tmax_eu, field = "idx")
 zres  <- zonal(tmax_eu, zones, fun = "mean", na.rm = TRUE)
 
@@ -65,7 +65,7 @@ zres  <- zonal(tmax_eu, zones, fun = "mean", na.rm = TRUE)
 missing <- setdiff(nuts2$idx, zres[[1]])
 nuts2[missing, c("NUTS_ID", "NAME_FREN")]
 
-# For regions two small for the raster, attribution of the next known max temp value (using the center of the NUTS-2 region)
+# For regions too small for the raster, attribution of the next known maximum temperature value using the center of the NUTS-2 region.
 if (length(missing) > 0) {
   pts       <- st_centroid(nuts2[missing, ])
   vpts      <- extract(tmax_eu, vect(pts))
