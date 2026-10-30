@@ -65,7 +65,7 @@ zres  <- zonal(tmax_eu, zones, fun = "mean", na.rm = TRUE)
 missing <- setdiff(nuts2$idx, zres[[1]])
 nuts2[missing, c("NUTS_ID", "NAME_FREN")]
 
-# For regions two small for the raster, attribution of the next known max temp value (using the center of the NUTS-2 region
+# For regions two small for the raster, attribution of the next known max temp value (using the center of the NUTS-2 region)
 if (length(missing) > 0) {
   pts       <- st_centroid(nuts2[missing, ])
   vpts      <- extract(tmax_eu, vect(pts))
