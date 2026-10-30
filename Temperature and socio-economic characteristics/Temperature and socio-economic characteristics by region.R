@@ -1,7 +1,7 @@
 ### Data sources ###
 ## Income NUTS-2 Eurostat: https://ec.europa.eu/eurostat/databrowser/view/ilc_mdsd18/default/table?category=livcon.ilc.ilc_md.ilc_mdsd
 ## NUTS-2 boundaries: https://ec.europa.eu/eurostat/web/gisco/geodata/statistical-units/territorial-units-statistics
-## Temperature observations (ERA5 post-processed daily statistics on single levels from 1940 to present) https://cds.climate.copernicus.eu/datasets/derived-era5-single-levels-daily-statistics
+## Temperature observations (ERA5 post-processed daily statistics on single levels from 1940 to present): https://cds.climate.copernicus.eu/datasets/derived-era5-single-levels-daily-statistics
 
 
 library(sf)
@@ -91,7 +91,7 @@ tab_temp <- data.frame(
 )
 stopifnot(nrow(tab_temp) == nrow(nuts2))
 
-# Some regions still do not have any temperature values assigned. It is assumed that these regions are beyond the range of the analysis, eg oversea territories
+# Some regions still do not have any temperature values assigned. It is assumed that these regions are beyond the range of the analysis, which is the case most notably for the EU's outermost regions
 tab_temp[!is.finite(tab_temp$temp_max_summer), c("NUTS_ID", "region")]
 
 ## Crossing information on temperature and socio-economic indicators for every NUTS-2 region included in the analysis
@@ -112,12 +112,12 @@ head(tab_final, 15)
 summary(tab_final[, c("temp_max_summer", "temp_median_summer", "privation", "revenue")])
 nrow(tab_final)
 
-# Commented line to write the results in a table
+# Optional: export the results in a table
 ## write.csv2(tab_final, "Temperature deprivation summer 2026 analysis.csv", row.names = FALSE)
 
 ## Regression analysis of temperature and socio-economic characteristics
 
-# Limit the regression analysis to NUTS-2 regions with temperature information (and continue working with “dat” variable”
+# Limit the regression analysis to NUTS-2 regions with temperature information. Therefore, relevant data is stored in the "dat" object
 dat <- tab_final[!is.na(tab_final$privation) &
  is.finite(tab_final$temp_max_summer), ]
 nrow(dat)
@@ -130,7 +130,7 @@ confint(modele)
 # Regression analysis share of deprivation and median summer temperature
 summary(lm(privation ~ temp_median_summer, data = dat))
 
-## Create scatter plots
+## Create scatter plots for visualization
 
 ggplot(dat, aes(x = temp_max_summer, y = privation)) +
   geom_point(alpha = 0.6) +
