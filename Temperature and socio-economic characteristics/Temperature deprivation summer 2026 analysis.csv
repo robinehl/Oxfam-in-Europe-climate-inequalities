@@ -1,0 +1,245 @@
+"NUTS_ID";"region";"temp_median_summer";"privation";"revenue"
+"ES24";"Aragón";33,6;6,5;19900
+"ITG2";"Sardegna";33;4;18200
+"ITF4";"Puglia";32,8;9,3;16600
+"ES53";"Illes Balears";32,5;3,6;19100
+"ITI2";"Umbria";32,5;1,8;21200
+"CY00";"Kýpros";32;2,2;18800
+"ITI4";"Lazio";32;2;22100
+"ITH5";"Emilia-Romagna";31,8;1,7;24900
+"ITF5";"Basilicata";31,7;4,5;16900
+"ITI1";"Toscana";31,6;6,4;22200
+"ES51";"Cataluña";31,5;8,9;19900
+"ITG1";"Sicilia";31,5;9,4;16100
+"ITF3";"Campania";31,3;10;15600
+"FRI1";"Aquitaine";31,1;6,5;24000
+"EL30";"Attiki";31;15,9;15200
+"ES52";"Comunitat Valenciana ";31;6,9;16000
+"ITC4";"Lombardia";31;4,4;26000
+"EL63";"Dytiki Elláda";30,8;12;11200
+"FRJ1";"Languedoc-Roussillon";30,8;7,9;22300
+"ITF2";"Molise";30,8;0,7;17800
+"ITI3";"Marche";30,7;1,5;21200
+"HU33";"Dél-Alföld";30,4;9;9600
+"FRJ2";"Midi-Pyrénées";30,3;7,3;23600
+"FRL0";"Provence-Alpes-Côte d’Azur";30,1;6,9;25900
+"ITH3";"Veneto";30;2,1;22900
+"BG31";"Severozapaden";29,9;16,9;6100
+"HR02";"Panonska Hrvatska";29,9;3,8;10300
+"EL52";"Kentriki Makedonia";29,8;19,3;12400
+"FRI3";"Poitou-Charentes";29,8;5,8;23200
+"HU11";"Budapest";29,8;4,1;18600
+"EL65";"Peloponnisos";29,7;17,2;12100
+"ITC1";"Piemonte";29,7;3,7;23500
+"FRM0";"Corse";29,6;9,8;24200
+"HU12";"Pest";29,6;9,4;11600
+"ITF6";"Calabria";29,6;14,8;15800
+"HR05";"Grad Zagreb";29,5;1,2;13100
+"HU23";"Dél-Dunántúl";29,5;10,5;9200
+"MT00";"Malta";29,4;4,1;18800
+"EL61";"Thessalia";29,3;9,7;11700
+"FRB0";"Centre — Val de Loire";29,3;5,4;23500
+"HR06";"Sjeverna Hrvatska";29,2;1,8;10800
+"HU32";"Észak-Alföld";29,2;13,6;9300
+"HU22";"Nyugat-Dunántúl";29,1;4;10600
+"AT13";"Wien";29;5,6;26400
+"EL54";"Ipeiros";29;7,2;12400
+"HU21";"Közép-Dunántúl";29;3,7;11000
+"RO32";"Bucureşti-Ilfov";29;12,9;17600
+"EL41";"Voreio Aigaio";28,8;8,1;11200
+"FRC1";"Bourgogne";28,8;6,8;23100
+"RO41";"Sud-Vest Oltenia";28,8;17,1;7500
+"EL64";"Sterea Elláda";28,7;11,6;11400
+"HR03";"Jadranska Hrvatska";28,6;1,3;11000
+"RO42";"Vest";28,6;6,4;9900
+"RO22";"Sud-Est";28,5;27,2;7700
+"EL51";"Anatoliki Makedonia, Thraki";28,4;15,4;11100
+"FRG0";"Pays de la Loire";28,4;5,5;23300
+"RO31";"Sud-Muntenia";28,4;19,2;7400
+"AT11";"Burgenland";28,3;2,7;29000
+"BG42";"Yuzhen tsentralen";28,3;18,1;6700
+"EL43";"Kriti";28,3;9,1;12800
+"FRI2";"Limousin";28,3;7;23200
+"FRK2";"Rhône-Alpes";28,3;6,1;24600
+"ITF1";"Abruzzo";28,3;5,3;19000
+"SK01";"Bratislavský kraj";28,2;1,9;18700
+"BG32";"Severen tsentralen";28,1;19,1;6500
+"FRC2";"Franche-Comté";28,1;6,6;22700
+"HU31";"Észak-Magyarország";28,1;14;8700
+"BG34";"Yugoiztochen";27,8;21,1;6200
+"FRF1";"Alsace";27,8;5,9;23200
+"FR10";"Ile-de-France";27,7;7,3;29600
+"SI03";"Vzhodna Slovenija";27,7;2,6;16200
+"EL53";"Dytiki Makedonia";27,6;13,5;13200
+"EL62";"Ionia Nisia";27,6;23,3;16700
+"ITC3";"Liguria";27,6;3,9;23200
+"SK02";"Západné Slovensko";27,5;5,8;11900
+"BG33";"Severoiztochen";27,4;14,1;6700
+"FRF2";"Champagne-Ardenne";27,3;8;22400
+"DEB3";"Rheinhessen-Pfalz";27,2;7,3;27700
+"FRK1";"Auvergne";27;7,5;23400
+"ITH4";"Friuli-Venezia Giulia";26,9;1,1;23100
+"AT12";"Niederösterreich";26,8;3,5;29500
+"DE12";"Karlsruhe";26,8;5,5;29100
+"FRF3";"Lorraine";26,8;7,5;22600
+"EL42";"Notio Aigaio";26,7;15,6;16100
+"SI04";"Zahodna Slovenija";26,5;1,1;16700
+"DE22";"Niederbayern";26,3;3;29300
+"DE71";"Darmstadt";26,3;5,2;30100
+"FRD1";"Basse-Normandie ";26,3;5,8;23200
+"DE13";"Freiburg";26,2;4,5;29100
+"DE11";"Stuttgart";26,1;6,1;30800
+"DEC0";"Saarland";26,1;7,3;25000
+"CZ01";"Praha";26;2,7;20100
+"DE21";"Oberbayern";26;3,1;34700
+"FRY5";"Mayotte";26;NA;8500
+"RO11";"Nord-Vest";25,9;17,4;9100
+"FRE2";"Picardie";25,8;6,8;21900
+"AT31";"Oberösterreich";25,7;2;28800
+"BG41";"Yugozapaden";25,6;8,4;11300
+"DE14";"Tübingen";25,6;5,5;30000
+"DE27";"Schwaben";25,6;2,2;30100
+"DE25";"Mittelfranken";25,5;5;30000
+"RO21";"Nord-Est";25,5;14,9;7200
+"DE23";"Oberpfalz";25,4;1,6;29200
+"DE26";"Unterfranken";25,3;3,4;29800
+"FRD2";"Haute-Normandie ";25,3;6,3;23000
+"CZ02";"Střední Čechy";25,2;2,5;17200
+"CZ06";"Jihovýchod";25,2;1,7;15800
+"LU00";"Luxembourg";25;3,4;39700
+"BE22";"Prov. Limburg (BE)";24,9;1,7;27400
+"NL42";"Limburg (NL)";24,9;NA;NA
+"CZ03";"Jihozápad";24,7;3,4;15300
+"BE21";"Prov. Antwerpen";24,6;4,4;28800
+"BE24";"Prov. Vlaams-Brabant";24,6;1,8;31700
+"BE32";"Prov. Hainaut";24,6;11;23700
+"CZ07";"Střední Morava";24,6;1,4;14900
+"DEB1";"Koblenz";24,6;6,1;27600
+"NL41";"Noord-Brabant";24,6;3,2;27000
+"DE24";"Oberfranken";24,5;2,9;29100
+"DED5";"Leipzig";24,5;3,5;24700
+"BE10";"Région de Bruxelles-Capitale/ Brussels Hoofdstedelijk Gewest";24,4;9,9;25000
+"BE23";"Prov. Oost-Vlaanderen";24,4;3,9;30200
+"BE31";"Prov. Brabant wallon";24,4;4,4;30500
+"DE30";"Berlin";24,4;5,6;26400
+"DEB2";"Trier";24,4;5,6;27600
+"FRE1";"Nord-Pas de Calais";24,3;9;21200
+"BE35";"Prov. Namur";24,2;5;25400
+"RO12";"Centru";24,2;16,8;9200
+"SK04";"Východné Slovensko";24,2;12,7;11300
+"DEE0";"Sachsen-Anhalt";24,1;3,8;24800
+"PL52";"Opolskie";24,1;0,8;10900
+"PL71";"Łódzkie";24,1;2,3;12000
+"DE40";"Brandenburg";24;5,4;26000
+"DE72";"Gießen";24;5,2;26600
+"DEA1";"Düsseldorf";24;7,5;27100
+"BE33";"Prov. Liège";23,8;3,6;25000
+"BE34";"Prov. Luxembourg (BE)";23,8;3,5;26700
+"DEA2";"Köln";23,8;6,5;28000
+"DEA3";"Münster";23,8;7;27000
+"PL43";"Lubuskie";23,8;2,1;10200
+"PL82";"Podkarpackie";23,8;2;9600
+"BE25";"Prov. West-Vlaanderen";23,7;1,6;30500
+"CZ04";"Severozápad";23,7;3;14200
+"DED2";"Dresden";23,7;3,4;25500
+"NL22";"Gelderland";23,7;3,1;26500
+"PL22";"Śląskie";23,7;1,8;12700
+"PL91";"Warszawski stołeczny";23,7;1,1;15300
+"CZ05";"Severovýchod";23,5;3;15000
+"DE91";"Braunschweig";23,5;6,8;26800
+"NL34";"Zeeland";23,5;0,4;25700
+"PL51";"Dolnośląskie";23,5;2,1;11700
+"DE92";"Hannover";23,3;6;27200
+"DEG0";"Thüringen";23,3;8,3;25200
+"NL35";"Utrecht";23,3;3;28600
+"PL72";"Świętokrzyskie";23,3;2,1;10700
+"PL81";"Lubelskie";23,3;1,9;10500
+"CZ08";"Moravskoslezsko";23,2;3,8;14500
+"DE73";"Kassel";23,2;6,3;26900
+"NL21";"Overijssel";23,2;3,2;25600
+"PL41";"Wielkopolskie";23,2;2,6;11800
+"PL92";"Mazowiecki regionalny";23,2;1;12200
+"SK03";"Stredné Slovensko";23,1;4,6;12500
+"AT21";"Kärnten";23;1,6;28000
+"AT22";"Steiermark";23;1,4;28500
+"NL36";"Zuid-Holland";23;2,8;26500
+"DEA4";"Detmold";22,9;6,6;28000
+"DED4";"Chemnitz";22,8;4,4;25500
+"ITH2";"Provincia Autonoma di Trento";22,8;0;23100
+"DE50";"Bremen";22,7;10,9;25000
+"DE93";"Lüneburg";22,7;6,2;28400
+"DE60";"Hamburg";22,5;5,6;29900
+"PL61";"Kujawsko-pomorskie";22,5;3,7;10900
+"DE94";"Weser-Ems";22,4;7;27000
+"PL21";"Małopolskie";22,4;0,8;10900
+"DEA5";"Arnsberg";22,2;7,2;26700
+"NL13";"Drenthe";22,2;0,7;25600
+"NL23";"Flevoland";22,2;1,3;25100
+"PL84";"Podlaskie";22,2;2;10500
+"PL42";"Zachodniopomorskie";22,1;4;11200
+"DE80";"Mecklenburg-Vorpommern";21,9;5,2;25400
+"SE12";"Östra Mellansverige";21,3;4,5;22200
+"LT01";"Sostinės regionas";21,2;2,7;17400
+"NL11";"Groningen";21,2;0,7;24100
+"PL62";"Warmińsko-mazurskie";21,2;2,3;10600
+"DEF0";"Schleswig-Holstein";21,1;4,7;28800
+"LT02";"Vidurio ir vakarų Lietuvos regionas ";21,1;6,7;13200
+"AT34";"Vorarlberg";21;4,3;29100
+"NL32";"Noord-Holland";21;2,9;28000
+"LV00";"Latvija";20,9;4,8;11000
+"SE11";"Stockholm";20,9;4,3;27900
+"NL12";"Friesland (NL)";20,8;2,2;24800
+"PL63";"Pomorskie";20,8;3,2;11000
+"DK02";"Sjælland";20,5;4,9;26800
+"EE00";"Eesti";20,5;3,5;14400
+"SE21";"Småland med öarna";20,4;4,5;22000
+"DK01";"Hovedstaden";20,3;4,4;29600
+"SE22";"Sydsverige";20,2;3,9;22800
+"AT32";"Salzburg";20,1;0,5;29200
+"DK03";"Syddanmark";20;4,3;25500
+"ITH1";"Provincia Autonoma di Bolzano/Bozen";19,9;1,2;29400
+"FRY4";"La Réunion ";19,7;13,8;19200
+"DK04";"Midtjylland";19,6;5;26300
+"FI1B";"Helsinki-Uusimaa";19,6;4;28900
+"SE23";"Västsverige";19,6;3,2;23600
+"FI1C";"Etelä-Suomi";19,3;3;23700
+"DK05";"Nordjylland";19,2;3,2;25700
+"SE31";"Norra Mellansverige";19,2;4,4;21700
+"AT33";"Tirol";19;0,8;28400
+"FI19";"Länsi-Suomi";19;NA;22800
+"ITC2";"Valle d’Aosta/Vallée d’Aoste";18,9;0,8;22600
+"FI20";"Åland";18,6;NA;27200
+"FI1D";"Pohjois- ja Itä-Suomi";17;2,8;21800
+"SE32";"Mellersta Norrland";16,5;3;22000
+"SE33";"Övre Norrland";15,2;1,4;22600
+"ES11";"Galicia";NA;7,1;17800
+"ES12";"Principado de Asturias";NA;6,7;19500
+"ES13";"Cantabria";NA;5;18300
+"ES21";"País Vasco";NA;3;24200
+"ES22";"Comunidad Foral de Navarra";NA;4,8;21400
+"ES23";"La Rioja";NA;4,3;18900
+"ES30";"Comunidad de Madrid";NA;8,4;22600
+"ES41";"Castilla y León";NA;6,7;18500
+"ES42";"Castilla-La Mancha";NA;9,8;15800
+"ES43";"Extremadura";NA;6,3;15200
+"ES61";"Andalucía";NA;10,9;14700
+"ES62";"Región de Murcia";NA;9,6;15800
+"ES63";"Ciudad de Ceuta";NA;11;16100
+"ES64";"Ciudad de Melilla";NA;11,8;14900
+"ES70";"Canarias";NA;9,3;15300
+"FRH0";"Bretagne";NA;5;23600
+"FRY1";"Guadeloupe";NA;12,9;18900
+"FRY2";"Martinique ";NA;10,6;20600
+"FRY3";"Guyane";NA;21,1;12000
+"IE04";"Northern and Western";NA;6,5;26200
+"IE05";"Southern";NA;3,8;28700
+"IE06";"Eastern and Midland";NA;5,7;28100
+"PT11";"Norte";NA;4;13800
+"PT15";"Algarve";NA;2,8;18600
+"PT19";"Centro (PT)";NA;3,5;14500
+"PT1A";"Grande Lisboa";NA;5,1;18600
+"PT1B";"Península de Setúbal";NA;4,4;15100
+"PT1C";"Alentejo";NA;2,4;15800
+"PT1D";"Oeste e Vale do Tejo";NA;6;14400
+"PT20";"Região Autónoma dos Açores";NA;6,7;15400
+"PT30";"Região Autónoma da Madeira";NA;5;15700
